@@ -19,8 +19,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
     ```sh
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/asheesh4545/Multi-AI-Agent-Crew/tree/master.git
     ```
 
 2. Create a virtual environment and activate it:
