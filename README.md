@@ -58,7 +58,7 @@ This script will:
 
 ## Project Structure
 
-- `main.py`: Main script to run the content creation process.
+- `app.py`: Main script to run the content creation process.
 - `.env`: Environment file to store the GROQ API key.
 - `README.md`: This readme file.
 
