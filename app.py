@@ -5,10 +5,10 @@ import os
 
 
 
-# Load environment variables from .env file
+
 load_dotenv()
 
-# Retrieve the API key from the environment variable
+
 api_key = os.getenv("GROQ_API_KEY")
 
 
@@ -16,13 +16,6 @@ llm=ChatGroq(temperature=0,
              model_name="llama3-70b-8192",
              api_key= api_key
              )
-
-
-# llm = ChatGroq(
-#         temperature=0, 
-#         groq_api_key ="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", 
-#         model_name="mixtral-8x7b-32768"
-# )
 
 
 planner = Agent(
